@@ -11,11 +11,11 @@ namespace CityInfo.API.Models
         public string Name { get; set; }
         public string Description { get; set; }
 
-        public int NumberOfPontsOfInterest { get
-            {
-                return PointsOfInterest.Count;
-            } }
+        //public int NumberOfPontsOfInterest { get
+        //    {
+        //        return PointsOfInterest.Count;
+        //    } }
 
-        public ICollection<PointOfInterestDto> PointsOfInterest { get; set; } = new List<PointOfInterestDto>();
+        //public ICollection<PointOfInterestDto> PointsOfInterest { get; set; } = new List<PointOfInterestDto>();
     }
 }
